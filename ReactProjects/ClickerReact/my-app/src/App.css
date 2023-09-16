@@ -1,0 +1,55 @@
+.App {
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  text-align: center;
+}
+
+.counter{
+  height: 100%;
+  font-size: 50px;
+  padding-top: 14vh;
+  text-align: center;
+  width: 100%;
+}
+
+button{
+  height: 5vh;
+  width: 10%;
+  border-radius: 20px;
+  border: solid 1px;
+  margin-top: 1%;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: aqua;
+}
+
+.supers{
+  display: flex;
+  width: 100%;
+}
+
+.supers_group{
+  margin-top: 14vh;
+  width: 33.333333%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.super_btn{
+  width: 50%;
+}
+
+.super{
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.super_text{
+  margin-bottom: 30px;
+}

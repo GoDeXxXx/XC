@@ -1,0 +1,19 @@
+li{
+  list-style-type: none; 
+  border: white solid 1px;
+  max-width: 500px;
+  min-height: 30px;
+}
+
+.usf{
+  margin-left: 20px;
+}
+
+ul{
+  margin-left: 20px; 
+  padding-left: 0;
+}
+
+button{
+  margin-left: 20px; 
+}

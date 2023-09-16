@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ХАвка</title>
+</head>
+<body>
+    <header>
+        <div class="container_h">
+            <div class="logo">
+                <div class="logo_icon">
+                    <img src="./media/photo/Logo (1).png" alt="">
+                </div>
+                <div class="logo_name">
+                    <p>HEALTHY SWITCHER</p>
+                </div>
+            </div>
+            <div class="nav">
+                <p>Menu</p>
+                <p>Recipes</p>
+                <p>Chefs</p>
+                <p>Contacts</p>
+            </div>
+        </div>
+    </header>
+    <div class="line_header"></div>
+    <main>
+        <div class="intro">
+            <div class="intro_head">
+                <p class="head"><span>Your </span>favourite food<br><span>delivered <span>hot & fresh</span></p>
+                <p class="subscriptoin">HEALTHY SWITCHER chefs do all the prep work, like peeling, chopping &<br> marinating, so you can cook a fresh homemade dinner in just 15 minutes.</p>
+                <button> Order Now</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #1A1A1A;
+    color: #fff;
+    font-family: 'Helvetica Neue';
+}
+
+@font-face{
+    font-family: 'Helvetica Neue';
+    src: url(/Шрифты/HelveticaNeueLTStdBd.otf);
+}
+
+.container_h{
+    width: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    z-index: 10;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo_icon{
+    display: flex;
+    align-items: center;
+}
+
+.logo_icon > img{
+    position: relative;
+    top: -4px;
+}
+
+.logo_name{
+    color: #34C759;
+    letter-spacing: 3px;
+    padding-left: 8px;
+    font-family: 'Helvetica Neue';
+}
+
+.nav{
+    display: flex;
+    width: 24%;
+    justify-content: space-between;
+    font-family: 'Helvetica Neue';
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+
+.nav :first-child{
+    color: #34C759;
+}
+
+.line_header{
+    height: 100px;
+    color: rgb(119, 33, 33);
+    position: fixed;
+}
+
+.intro{
+    background-image: url(/media/photo/placeholder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -20px;
+    height: 155vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro_head{
+    position: relative;
+    top: 25vh;
+}
+
+.head{
+    font-size: 90px;
+    margin: 0;
+    line-height: 100px;
+    letter-spacing: 5px;
+}
+
+.subscriptoin{
+    opacity: 0.7;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+
+.intro_head > button{
+    margin-top: 50px;
+    width: 200px;
+    height: 70px;
+    border-radius: 40px;
+    background-color: #34C759;
+    border-color: #34C759;
+    color: black;
+    letter-spacing: 4px;
+    font-family: 'Helvetica Neue';
+}
